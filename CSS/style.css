@@ -1,0 +1,103 @@
+/*================================================
+    Authour: Todd Kelson
+==================================================
+    GENERIC STYLES
+==================================================*/
+
+/*+++++++++++++++++++++++++++
+	HOME SECTION STYLE
+	+++++++++++++++++++++++*/
+	
+#home {
+	background: url(../images/program.jpg) no-repeat 50% 50%;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 100px; /* spacer before logo*/
+	padding-bottom: 200px; /* spacer after logo*/
+	color: #fff;
+}
+
+
+/*=================================
+	Screen size 500px wide or larger,
+	following styles will be applied.
+=================================*/
+@media (min-width:500px){
+	.login {
+		width: 500px;
+		height: 323px;
+	}
+	input[type="text"],
+	input[type="password"] {
+		width: 430px;
+		font-size: 20px;
+	}
+	.btn {
+		font-size: 20px;
+		width: 125px;
+		height: 50px;
+		margin: 45px 0 0 110px;
+	}
+	.forgot a {
+		margin: 0 0 0 35%;
+	}
+	.chk {
+		margin: 5% 0 0 0;
+	}
+	.rem {
+		margin: 5% 0 0 10px;
+	}
+}
+
+
+/*=================================
+	Screen size less than 500px wide,
+	following styles will be applied.
+=================================*/
+@media (max-width:499px) {
+	.login {
+		width: 300px;
+		height: 297px;
+		background-color: #eff0f2;
+	}
+	input[type="text"],
+	input[type="password"] {
+		width: 250px;
+		font-size: 15px;
+	}
+	.btn {
+		font-size: 14px;
+		width: 225px;
+		height: 40px;
+		margin: 15% 0 0 7%;
+	}
+	.forgot a {
+		margin: 0 0 0 25%;
+	}
+	.chk {
+		margin: 6% 0 0 0;
+	}
+	.rem {
+		margin: 6% 0 0 5%;
+	}
+}
+
+
+/*==============
+	FOOTER STYLE
+===============*/
+
+#footer {
+	background-color: rgba(100,65,0,0.3);
+	color: #000;
+	text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+	padding: 20px 50px 20px 50px;
+	text-align: right;
+}
+	   
