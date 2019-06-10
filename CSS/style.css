@@ -9,7 +9,7 @@
 	+++++++++++++++++++++++*/
 	
 #home {
-	background: url(../images/program.jpg) no-repeat 50% 50%;
+	
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -22,6 +22,7 @@
 	padding-bottom: 200px; /* spacer after logo*/
 	color: #fff;
 }
+
 
 
 /*=================================
@@ -87,6 +88,7 @@
 		margin: 6% 0 0 5%;
 	}
 }
+
 
 
 /*==============
