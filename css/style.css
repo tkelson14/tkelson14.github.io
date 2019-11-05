@@ -16,9 +16,13 @@
 }
 
 .card-img-top {
-	width: 100%;
-	height: 25vw;
-	object-fit: cover;
+	width: 75%;
+	height: 200px;
+	/* object-fit: cover; */
+}
+
+.card-deck {
+	margin: 100px;
 }
 
 
@@ -39,8 +43,8 @@
 	}
 	.btn {
 		font-size: 20px;
-		width: 125px;
-		height: 50px;
+		width: auto;
+		height: 40px;
 		margin: 45px 0 0 110px;
 	}
 	.forgot a {
